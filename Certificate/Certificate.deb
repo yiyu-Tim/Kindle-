@@ -1,0 +1,11 @@
+Package: secure-service-mtls
+Version: 1.0.0
+Section: admin
+Priority: optional
+Architecture: amd64/32/x86
+Depends: python3 (>= 3.6), python3-pyopenssl, systemd
+Maintainer: Your Name <you@example.com>
+Description: Secure Service with mTLS Authentication
+ A service that only allows access to clients with valid certificates.
+ Only authorized clients with the correct certificate can connect.
+Homepage: https://api.github.com/repos/yiyu-tim/kindle-
